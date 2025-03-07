@@ -1,5 +1,3 @@
-package Searching;
-
 import java.util.Scanner;
 
 class linear{
