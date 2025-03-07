@@ -2,86 +2,55 @@ Linear Search Implementation in Java
 This Java program demonstrates the implementation of a Linear Search algorithm. Linear Search is a simple searching algorithm that checks each element in a list sequentially until it finds the target element or reaches the end of the list.
 
 Code Explanation
+
 1. Class linear
 This class contains the method l_Search which performs the linear search operation.
-
 Method Signature: public int l_Search(int n, int[] array, int sn)
-
 n: The size of the array.
-
 array: The array in which the search is performed.
-
 sn: The element to be searched.
 
 Working:
-
 The method iterates through the array using a for loop.
-
 If the target element (sn) is found in the array, it returns the index of the element.
-
 If the element is not found, it returns -1.
 
 2. Class linear_Search
 This is the main class that handles user input and calls the l_Search method.
-
 Steps:
-
 Input Array Size:
-
 The user is prompted to enter the size of the array (n).
-
-Input Array Elements:
-
+nput Array Elements:
 The user is asked to enter n elements, which are stored in the array.
-
 Display Array Elements:
-
 The program displays the elements entered by the user.
-
 Input Search Element:
-
 The user is prompted to enter the element they want to search (sn).
-
 Call l_Search Method:
-
 An object of the linear class is created, and the l_Search method is called with the array, its size, and the search element.
-
 Display Result:
-
 If the element is found, the program displays the index of the element.
-
 If the element is not found, it displays an error message.
 
 How to Run the Code
 Compile the Code:
-
 Save the code in a file named linear_Search.java.
 
 Compile the code using the command:
-
-Copy
 javac linear_Search.java
+
 Run the Program:
-
 Run the compiled program using the command:
-
-Copy
 java linear_Search
+
 Input:
-
 Enter the size of the array.
-
 Enter the elements of the array.
-
 Enter the element you want to search.
-
 Output:
-
 The program will display the index of the searched element if found, or an error message if not found.
-
 Example
 Input:
-Copy
 Enter Size of an Array: 5
 
 Enter 1 Elements: 10
@@ -91,27 +60,19 @@ Enter 4 Elements: 40
 Enter 5 Elements: 50
 
 Element You Want to Search: 30
+
 Output:
-Copy
 Elements are: 10 20 30 40 50
 ---------------------------------------------
 Element 30 Found at Array Index: 2
 Key Points
 Time Complexity: O(n) in the worst case, as the algorithm may need to check all elements.
-
 Space Complexity: O(1), as it uses a constant amount of extra space.
-
 Use Case: Suitable for small datasets or unsorted arrays where more advanced search algorithms (e.g., Binary Search) cannot be applied.
-
 README Summary
 This program implements a Linear Search algorithm in Java. It allows the user to:
-
 Input the size of an array.
-
 Input elements into the array.
-
 Search for a specific element in the array.
-
 Display the index of the element if found, or an error message if not found.
-
-The code is simple and easy to understand, making it a good example for beginners learning about search algorithms in Java.
+he code is simple and easy to understand, making it a good example for beginners learning about search algorithms in Java.
